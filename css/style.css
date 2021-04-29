@@ -34,7 +34,7 @@ body {
 header {
     background-color: rgb( 180, 208, 213);
     height: 650px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 /* nav-top HEADER  */
@@ -114,6 +114,7 @@ header .container {
 /* MAIN  */
 main .container {
     width: 950px;
+    padding: 100px 0;
 }
 
 main .container h2 {
@@ -129,7 +130,7 @@ input {
     margin: 3px;
 }
 
-.clearfix {
+main .clearfix {
     padding: 20px 0;
 }
 
@@ -272,8 +273,14 @@ ul.second-list li::before {
 }
 
 /* img with text  */
-main .container .fl
+main .container .img-container {
+    width: 50%;
+}
 
+main .container .img-container  img {
+    width: 430px;
+}
 
-
-
+main .container .text-container {
+    width: 50%;
+}
