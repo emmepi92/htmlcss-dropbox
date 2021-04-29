@@ -117,7 +117,15 @@ main .container {
 
 main .container h2 {
     font-size: 38px;
-    padding: 10px 0;
+    padding: 40px 0;
+}
+
+form label {
+    padding: 15px 15px 20px 0;
+}
+
+.clearfix {
+    padding: 20px 0;
 }
 
 
@@ -127,17 +135,15 @@ main .container h2 {
 }
 
 .content-plan {
-    padding: 10px;
-
+    border: 1px black solid;
 }
 .type-plan {
     text-align: center;
-    border-bottom: 1px solid black;
     padding: 10px;
+    border-bottom: 1px solid black;
 }
 
 .detail-plan {
-    border: 1px black solid;
     padding: 20px;
     font-size: 14px;
 }
@@ -154,6 +160,7 @@ padding: 10px 0;
     color: #aaa;
     font-size: 13px;
     padding: 10px 0;
+    height: 60px;
 }
 
 .detail-plan li {
