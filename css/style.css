@@ -34,7 +34,7 @@ body {
 header {
     background-color: rgb( 180, 208, 213);
     height: 650px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 
 /* nav-top HEADER  */
@@ -111,17 +111,36 @@ header .container {
 }
 
 /* MAIN  */
-
 main .container {
     width: 950px;
 }
 
-main .container h2 {
-    font-size: 35px;
+main .container * {
+    padding: 5px;
 }
 
-.single {
-    width: calc(100% / 3);
-    border: 1px black solid;
+main .container h2 {
+    font-size: 38px;
+    padding: 10px 0;
 }
+
+form {
+  
+}
+
+/* float MAIN  */
+.plan-sub {
+    width: calc(100% / 3);
+}
+
+.content-plan {
+    border: 1px black solid;
+
+}
+
+.other-op {
+    border: 1px black solid;
+
+}
+
 
