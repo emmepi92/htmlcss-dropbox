@@ -134,23 +134,38 @@ form label {
     width: calc(100% / 3);
 }
 
-.content-plan {
-    border: 1px black solid;
+.content-plan-1 {
+    padding: 10px 36px 10px 0px;
+}
+.content-plan-2 {
+    padding: 10px 18px;
+
+}
+.content-plan-3 {
+    padding: 10px 0px 10px 36px;
+    
 }
 .type-plan {
     text-align: center;
-    padding: 10px;
-    border-bottom: 1px solid black;
+    border: 1px #ccc solid;
+    border-bottom: none;
+}
+
+.type-plan div {
+    padding: 10px 0;
 }
 
 .detail-plan {
     padding: 20px;
     font-size: 14px;
+    border: 1px #ccc solid;
 }
+
 .detail-plan h4 {
 font-size: 25px;
 padding: 10px 0;
 }
+
 .cost-plan {
     font-weight: bold;
     font-size: 15px;
@@ -167,13 +182,36 @@ padding: 10px 0;
     padding: 8px 0;
 }
 
-.detail-plan ul {
+.list-first li {
+    text-indent: -26px;
+    padding-left: 24px;
+}
+.detail-plan .list-first li:first-child::before {
+    content: "\26A7  ";
+    font-size: 1.5em;
+}
+.detail-plan .list-first li:nth-child(2)::before {
+    content: "\2709  ";
+    font-size: 1.5em;
+}
+.content-plan-2 .detail-plan .list-first li:nth-child(3)::before, .content-plan-3 .detail-plan .list-first li:nth-child(3)::before {
+    content: "\2696  ";
+    font-size: 1.5em;
+}
+.content-plan-1 .detail-plan .list-first li:nth-child(3)::before {
+    content: "\2710  ";
+    font-size: 1.5em;
+
+}
+.detail-plan .list-first {
     padding: 10px 0;
+    height: 220px;
 }
 .detail-plan .button {
     display: block;
     text-align: center;
     font-size: 15px;
+    padding: 10px 0;
 }
 
 .detail-plan .button + p {
@@ -195,12 +233,22 @@ p a {
     padding: 10px 0;
 }
 
+ul.second-list{
+    height: 280px;
+    text-indent: -15px;
+    padding-left: 11px;
+}
 
 
+
+ul.second-list li::before {
+    content: "\2714  ";
+    color: royalblue;
+}
+
+/* no float  */
 .other-op {
     border: 1px black solid;
-
-
 }
 
 
