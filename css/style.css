@@ -27,8 +27,16 @@ li {
 
 /* end utility  */
 
+/* HEADER  */
+header {
+    background-color: rgb( 180, 208, 213);
+    height: 650px;
+}
+
+/* nav-top HEADER  */
 .nav-top {
     padding: 20px;
+    background-color: white;
 }
 
 .logo {
@@ -50,3 +58,17 @@ li {
 .main li, .main-2 li {
     padding: 0 10px;
 }
+
+/* jumbo HEADER  */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container h1 {
+    letter-spacing: -3px;
+    font-size: 68px;
+    padding: 20px 0;
+}
+
