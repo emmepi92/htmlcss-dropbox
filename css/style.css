@@ -84,19 +84,21 @@ header .container {
     width: 300px;
 }
 
-.jumbo-text * {
-    padding: 10px 0;
-}
-
 .button {
     background-color: rgb(0, 93, 255);
     display: inline-block;
     padding: 5px 10px;
     color: white;
+    margin: 10px 0;
 }
 
-.jumbo-text div:last-child {
+.jumbo-text div:nth-last-child(2) {
     font-size: 13px;
+}
+
+.arrow {
+    font-size: 3em;
+
 }
 
 /* jumbo img HEADER  */
@@ -187,24 +189,41 @@ main .util {
 }
 
 .list-first li {
-    text-indent: -26px;
-    padding-left: 24px;
+    text-indent: -9px;
+    padding-left: 20px;
 }
 .detail-plan .list-first li:first-child::before {
-    content: "\26A7  ";
-    font-size: 1.5em;
+    content: "\f007";
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    padding-right: 5px;
+    vertical-align: middle;
+    font-weight: 900;
 }
 .detail-plan .list-first li:nth-child(2)::before {
-    content: "\2709  ";
-    font-size: 1.5em;
+    content: "\f07b";
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    padding-right: 5px;
+    vertical-align: middle;
+    font-weight: 900;
 }
 .content-plan-2 .detail-plan .list-first li:nth-child(3)::before, .content-plan-3 .detail-plan .list-first li:nth-child(3)::before {
-    content: "\2696  ";
-    font-size: 1.5em;
+    content: "\f7d9";
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    padding-right: 5px;
+    vertical-align: middle;
+    font-weight: 900;
+
 }
 .content-plan-1 .detail-plan .list-first li:nth-child(3)::before {
-    content: "\2710  ";
-    font-size: 1.5em;
+    content: "\f303";
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    padding-right: 5px;
+    vertical-align: middle;
+    font-weight: 900;
 
 }
 .detail-plan .list-first {
@@ -238,15 +257,20 @@ p a {
 }
 
 ul.second-list{
-    height: 270px;
-    text-indent: -15px;
-    padding-left: 11px;
+    height: 280px;
+    text-indent: -9px;
+    padding-left: 20px;
 }
-
-ul.second-list li::before {
-    content: "\2714  ";
+ul.second-list li:before {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
     color: royalblue;
 }
+
 /* end float  */
 
 .other-plan .detail-plan h4 + p {
@@ -353,4 +377,13 @@ ul.second-list li::before {
     text-decoration: underline;
 }
 
+/* section 3  */
+main section .container h2 {
+    line-height: 35px;
+}
+
+.small-box {
+    width: calc(100% / 6);
+
+}
 
