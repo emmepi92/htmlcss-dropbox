@@ -24,7 +24,10 @@ li {
     float: left;
 }
 
-
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
 /* end utility  */
 
 /* HEADER  */
@@ -59,13 +62,7 @@ header {
     padding: 0 10px;
 }
 
-/* jumbo HEADER  */
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
+/* jumbo text HEADER  */
 .container h1 {
     letter-spacing: -4px;
     font-size: 68px;
@@ -82,6 +79,7 @@ header .container {
 
 .jumbo-text * {
     padding: 10px 0;
+
 }
 
 .button {
@@ -93,7 +91,16 @@ header .container {
 
 .jumbo-text div:last-child {
     font-size: 13px;
-
 }
 
+/* jumbo img HEADER  */
 
+.jumbo {
+    position: absolute;
+    bottom: -150px;
+    right: -50px;
+}
+
+.jumbo img{
+    width: 700px;
+}
