@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    display: inline-block;
+}
+
+/* utility classes  */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+
+/* end utility  */
+
+.nav-top {
+    padding: 20px;
+}
+
+.logo {
+    width: 15%;
+}
+
+.main, .main-2 {
+    width: 39%;
+}
+
+.login {
+    width: 7%;
+}
+
+.main-2, .login {
+    text-align: right;
+}
+
+.main li, .main-2 li {
+    padding: 0 10px;
+}
