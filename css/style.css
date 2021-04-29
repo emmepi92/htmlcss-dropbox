@@ -109,6 +109,7 @@ header .container {
 .jumbo img{
     width: 750px;
 }
+/* end jumbo, end HEADER  */
 
 /* MAIN  */
 main .container {
@@ -131,7 +132,6 @@ input {
 .clearfix {
     padding: 20px 0;
 }
-
 
 /* float MAIN  */
 .plan-sub {
@@ -243,14 +243,11 @@ ul.second-list{
     padding-left: 11px;
 }
 
-
-
 ul.second-list li::before {
     content: "\2714  ";
     color: royalblue;
 }
-
-/* no float  */
+/* end float  */
 
 .other-plan .detail-plan h4 + p {
     font-weight: bold;
@@ -273,6 +270,9 @@ ul.second-list li::before {
     right: 30px;
     padding: 10px 40px;
 }
+
+/* img with text  */
+main .container .fl
 
 
 
