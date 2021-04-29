@@ -115,18 +115,11 @@ main .container {
     width: 950px;
 }
 
-main .container * {
-    padding: 5px;
-}
-
 main .container h2 {
     font-size: 38px;
     padding: 10px 0;
 }
 
-form {
-  
-}
 
 /* float MAIN  */
 .plan-sub {
@@ -134,12 +127,49 @@ form {
 }
 
 .content-plan {
-    border: 1px black solid;
+    padding: 10px;
 
 }
+.type-plan {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.detail-plan {
+    border: 1px black solid;
+    padding: 20px;
+}
+.detail-plan h4 {
+font-size: 25px;
+padding: 10px 0;
+}
+.cost-plan {
+    font-weight: bold;
+}
+.cost-plan + p {
+    color: #aaa;
+    font-size: 13px;
+    padding: 10px 0;
+}
+
+.detail-plan li {
+    font-size: 14px;
+    padding: 10px 10px;
+}
+
+.detail-plan ul {
+    padding: 10px 0;
+}
+.detail-plan .button {
+    display: block;
+    text-align: center;
+}
+
 
 .other-op {
     border: 1px black solid;
+
 
 }
 
