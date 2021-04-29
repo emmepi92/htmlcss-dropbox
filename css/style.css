@@ -114,7 +114,7 @@ header .container {
 /* MAIN  */
 main .container {
     width: 950px;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 main .container h2 {
@@ -130,7 +130,7 @@ input {
     margin: 3px;
 }
 
-main .clearfix {
+main .util {
     padding: 20px 0;
 }
 
@@ -144,12 +144,11 @@ main .clearfix {
 }
 .content-plan-2 {
     padding: 10px 18px;
-
 }
 .content-plan-3 {
     padding: 10px 0px 10px 36px;
-    
 }
+
 .type-plan {
     text-align: center;
     border: 1px #ccc solid;
@@ -272,15 +271,86 @@ ul.second-list li::before {
     padding: 10px 40px;
 }
 
-/* img with text  */
-main .container .img-container {
-    width: 50%;
+/* img with text  section-2 MAIN*/
+.img-container {
+    width: 60%;
 }
 
-main .container .img-container  img {
-    width: 430px;
+.img-container  img {
+    width: 500px;
 }
 
-main .container .text-container {
-    width: 50%;
+.text-container {
+    width: 40%;
+    padding: 60px 30px;
 }
+
+.text-container h3 {
+    font-size: 25px;
+}
+
+.text-container p {
+    font-size: 15px;
+    padding: 25px 0;
+}
+
+.text-container .button {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    padding: 5px 20px;
+}
+
+/* cards section 3 MAIN */
+.main .container h2 {
+    font-size: 38px;
+}
+
+.card {
+    width: calc(100% / 3);
+    height: 560px;
+}
+
+.card .img-card {
+    height: 230px;
+    background-position: center;
+    background-size: cover;
+}
+ 
+.text-card h3 {
+    font-size: 25px;
+    padding: 20px 0;
+}
+
+
+
+#card-1 {
+    background-image: url(../img/business-feature-switching-tools.png);
+}
+
+#card-2 {
+    background-image: url(../img/business-feature-coordinate-it.png);
+}
+
+#card-3 {
+    background-image: url(../img/business-feature-multi-device.png);
+}
+
+#card-4 {
+    background-image: url(../img/business-feature-integrations-it.png);
+}
+
+#card-5 {
+    background-image: url(../img/business-feature-send-files-it.png);
+}
+
+#card-6 {
+    background-image: url(../img/business-feature-security.png);
+}
+
+.underl {
+    text-decoration: underline;
+}
+
+
