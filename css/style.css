@@ -139,6 +139,7 @@ main .container h2 {
 .detail-plan {
     border: 1px black solid;
     padding: 20px;
+    font-size: 14px;
 }
 .detail-plan h4 {
 font-size: 25px;
@@ -146,6 +147,8 @@ padding: 10px 0;
 }
 .cost-plan {
     font-weight: bold;
+    font-size: 15px;
+
 }
 .cost-plan + p {
     color: #aaa;
@@ -154,8 +157,7 @@ padding: 10px 0;
 }
 
 .detail-plan li {
-    font-size: 14px;
-    padding: 10px 10px;
+    padding: 8px 0;
 }
 
 .detail-plan ul {
@@ -164,7 +166,28 @@ padding: 10px 0;
 .detail-plan .button {
     display: block;
     text-align: center;
+    font-size: 15px;
 }
+
+.detail-plan .button + p {
+    padding: 15px 0;
+}
+
+p a {
+    color: rgb(0, 93, 255);
+    font-weight: bold;
+}
+
+.detail-plan hr {
+    width: 20%;
+    margin: 20px 0;
+}
+
+.detail-plan h5 {
+    font-size: 17px;
+    padding: 10px 0;
+}
+
 
 
 .other-op {
