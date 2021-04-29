@@ -121,7 +121,11 @@ main .container h2 {
 }
 
 form label {
-    padding: 15px 15px 20px 0;
+    padding: 15px 15px 20px 5px;
+}
+
+input {
+    margin: 3px;
 }
 
 .clearfix {
@@ -162,8 +166,8 @@ form label {
 }
 
 .detail-plan h4 {
-font-size: 25px;
-padding: 10px 0;
+    font-size: 25px;
+    padding: 10px 0;
 }
 
 .cost-plan {
@@ -205,7 +209,7 @@ padding: 10px 0;
 }
 .detail-plan .list-first {
     padding: 10px 0;
-    height: 220px;
+    height: 230px;
 }
 .detail-plan .button {
     display: block;
@@ -234,7 +238,7 @@ p a {
 }
 
 ul.second-list{
-    height: 280px;
+    height: 270px;
     text-indent: -15px;
     padding-left: 11px;
 }
@@ -247,8 +251,29 @@ ul.second-list li::before {
 }
 
 /* no float  */
-.other-op {
-    border: 1px black solid;
+
+.other-plan .detail-plan h4 + p {
+    font-weight: bold;
+    padding: 10px 0;
+    font-size: 16px;
 }
+
+.other-plan .detail-plan p + p {
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+.other-plan .detail-plan {
+    position: relative;
+}
+
+.other-plan .detail-plan .button {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    padding: 10px 40px;
+}
+
+
 
 
