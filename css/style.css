@@ -49,12 +49,19 @@ header {
     background-color: rgb( 180, 208, 213);
     height: 730px;
     margin-bottom: 150px;
+    position: relative;
 }
 
 /* nav-top HEADER  */
 .nav-top {
     padding: 20px;
     background-color: white;
+}
+.fix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
 }
 
 .logo {
@@ -87,7 +94,7 @@ header {
 /* jumbo text HEADER  */
 .container h1 {
     font-size: 80px;
-    padding: 20px 0;
+    padding: 100px 0 20px;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -205,7 +212,7 @@ main .util {
 }
 
 .list-first li {
-    text-indent: -10px;
+    text-indent: -11px;
     padding-left: 20px;
 }
 
@@ -263,7 +270,7 @@ p a {
 
 ul.second-list{
     height: 280px;
-    text-indent: -9px;
+    text-indent: -10px;
     padding-left: 20px;
 }
 /* arrow icon  */
@@ -276,11 +283,11 @@ ul.second-list li:before {
 .other-plan .detail-plan h4 + p {
     font-weight: bold;
     padding: 10px 0;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .other-plan .detail-plan p + p {
-    font-size: 12px;
+    font-size: 14px;
     padding: 10px 0;
 }
 
@@ -310,11 +317,10 @@ ul.second-list li:before {
 }
 
 .text-container h3 {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .text-container p {
-    font-size: 15px;
     padding: 25px 0;
 }
 
@@ -322,14 +328,13 @@ ul.second-list li:before {
     border: 1px solid black;
     background-color: white;
     color: black;
-    font-size: 15px;
     padding: 10px 20px;
 }
 
 
 /*  section 3 cards */
 .main .container h2 {
-    font-size: 38px;
+    font-size: 50px;
 }
 
 .card {
@@ -346,7 +351,7 @@ ul.second-list li:before {
 }
  
 .text-card h3 {
-    font-size: 25px;
+    font-size: 28px;
     padding: 20px 0;
 }
 
@@ -356,7 +361,7 @@ ul.second-list li:before {
 
 /* section 4 */
 main section .container h2 {
-    line-height: 35px;
+    line-height: 40px;
 }
 
 .big-box {
@@ -445,7 +450,7 @@ section.five .container {
 }
 
 .six .container h3 {
-    font-size: 28px;
+    font-size: 38px;
     border-bottom: 1px solid #ccc;
     padding-bottom: 50px;
 }
@@ -453,6 +458,7 @@ section.five .container {
 .third-list li {
     padding: 30px 0;
     border-bottom: 1px solid #ccc;
+    font-size: 19px;
 }
 
 .six li::after {
@@ -466,7 +472,7 @@ footer {
     background-color: black;
     color: white;
     padding: 100px 0;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 footer ul {
@@ -477,8 +483,9 @@ footer li {
     padding: 10px 0;
 }
 footer li:first-child {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
+    padding-bottom: 17px;
 }
 
 .lang {
