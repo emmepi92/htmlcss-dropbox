@@ -381,7 +381,7 @@ main section .container h2 {
     left: 50%;
 }
 
-.box-content svg {
+.box-content svg, .box-content svg path {
     width: 10vw;
     fill: white;
 }
