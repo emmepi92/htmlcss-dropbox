@@ -126,12 +126,12 @@ header .container {
 /* jumbo img HEADER  */
 .jumbo {
     position: absolute;
-    bottom: -200px;
-    right: -50px;
+    bottom: -290px;
+    right: -60px;
 }
 
 .jumbo img{
-    width: 750px;
+    width: 830px;
 }
 /* end jumbo, end HEADER  */
 
@@ -396,9 +396,9 @@ main section .container h2 {
     left: 50%;
 }
 
-.box-content svg, .box-content svg path {
+.box-content svg {
     width: 10vw;
-    fill: white;
+    filter: invert(1);
 }
 
 .small-box > svg {
