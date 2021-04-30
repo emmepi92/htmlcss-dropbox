@@ -99,7 +99,6 @@ header .container {
 
 .arrow {
     font-size: 3em;
-
 }
 
 /* jumbo img HEADER  */
@@ -137,7 +136,7 @@ main .util {
     padding: 20px 0;
 }
 
-/* float MAIN  */
+/* float in MAIN  */
 .plan-sub {
     width: calc(100% / 3);
 }
@@ -178,6 +177,7 @@ main .util {
     font-size: 15px;
 
 }
+
 .cost-plan + p {
     color: #aaa;
     font-size: 13px;
@@ -193,44 +193,33 @@ main .util {
     text-indent: -9px;
     padding-left: 20px;
 }
-.detail-plan .list-first li:first-child::before {
-    content: "\f007";
+
+/* icons in plan-float  */
+.detail-plan .list-first li:first-child::before, .detail-plan .list-first li:nth-child(2)::before, .content-plan-2 .detail-plan .list-first li:nth-child(3)::before, .content-plan-3 .detail-plan .list-first li:nth-child(3)::before, .content-plan-1 .detail-plan .list-first li:nth-child(3)::before {
     font-family: "Font Awesome 5 Free";
     display: inline-block;
     padding-right: 5px;
     vertical-align: middle;
-    font-weight: 900;
+    font-weight: 900;    
+}
+.detail-plan .list-first li:first-child::before {
+    content: "\f007";
 }
 .detail-plan .list-first li:nth-child(2)::before {
     content: "\f07b";
-    font-family: "Font Awesome 5 Free";
-    display: inline-block;
-    padding-right: 5px;
-    vertical-align: middle;
-    font-weight: 900;
 }
 .content-plan-2 .detail-plan .list-first li:nth-child(3)::before, .content-plan-3 .detail-plan .list-first li:nth-child(3)::before {
     content: "\f7d9";
-    font-family: "Font Awesome 5 Free";
-    display: inline-block;
-    padding-right: 5px;
-    vertical-align: middle;
-    font-weight: 900;
-
 }
 .content-plan-1 .detail-plan .list-first li:nth-child(3)::before {
     content: "\f303";
-    font-family: "Font Awesome 5 Free";
-    display: inline-block;
-    padding-right: 5px;
-    vertical-align: middle;
-    font-weight: 900;
-
 }
+
 .detail-plan .list-first {
     padding: 10px 0;
     height: 230px;
 }
+
 .detail-plan .button {
     display: block;
     text-align: center;
@@ -262,6 +251,7 @@ ul.second-list{
     text-indent: -9px;
     padding-left: 20px;
 }
+/* arrow icon  */
 ul.second-list li:before {
     content: "\f00c";
     font-family: "Font Awesome 5 Free";
@@ -271,8 +261,7 @@ ul.second-list li:before {
     font-weight: 900;
     color: royalblue;
 }
-
-/* end float  */
+/* end float, in MAIN */
 
 .other-plan .detail-plan h4 + p {
     font-weight: bold;
@@ -296,7 +285,7 @@ ul.second-list li:before {
     padding: 10px 40px;
 }
 
-/* img with text  section-2 MAIN*/
+/* img with text section-2 MAIN*/
 .img-container {
     width: 60%;
 }
@@ -348,8 +337,6 @@ ul.second-list li:before {
     padding: 20px 0;
 }
 
-
-
 #card-1 {
     background-image: url(../img/business-feature-switching-tools.png);
 }
@@ -378,13 +365,12 @@ ul.second-list li:before {
     text-decoration: underline;
 }
 
-/* section 3  */
+/* section 4 in MAIN */
 main section .container h2 {
     line-height: 35px;
 }
 
 .small-box {
     width: calc(100% / 6);
-
 }
 
