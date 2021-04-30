@@ -195,7 +195,7 @@ main .util {
 }
 
 /* icons in plan-float  */
-.detail-plan .list-first li:first-child::before, .detail-plan .list-first li:nth-child(2)::before, .content-plan-2 .detail-plan .list-first li:nth-child(3)::before, .content-plan-3 .detail-plan .list-first li:nth-child(3)::before, .content-plan-1 .detail-plan .list-first li:nth-child(3)::before {
+ .list-first li::before {
     font-family: "Font Awesome 5 Free";
     display: inline-block;
     padding-right: 5px;
