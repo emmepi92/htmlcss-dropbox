@@ -40,7 +40,7 @@ body {
     margin: 10px 0;
 }
 
-.text-container .button, .abs .button,{
+.text-container .button, .abs .button {
     border: 1px solid black;
     background-color: white;
     color: black;
