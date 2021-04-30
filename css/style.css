@@ -303,7 +303,7 @@ ul.second-list li:before {
     padding: 25px 0;
 }
 
-.text-container .button {
+.text-container .button, .abs .button{
     border: 1px solid black;
     background-color: white;
     color: black;
@@ -388,9 +388,41 @@ main section .container h2 {
 }
 
 .big-box > .small-box {
-    padding: 40px;
+    padding: 10px 40px;
 }
 
+.big-box p {
+    font-size: 17px;
+    padding: 0 30px;
+}
 
+.sign {
+    padding: 40px 30px 0;
+    font-size: 15px;
+}
 
+/* section 5  */
 
+section.five {
+    background-color: rgb( 180, 208, 213);
+    height: 250px;
+}
+
+section.five .container h2 {
+    color: #613;
+
+}
+
+section.five .container {
+    position: relative
+}
+
+.abs {
+    position: absolute;
+    top:80px;
+    right: 0;
+}
+
+.abs .button {
+    border: none;
+}
