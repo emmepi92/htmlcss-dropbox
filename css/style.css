@@ -322,38 +322,16 @@ ul.second-list li:before {
 }
 
 .card .img-card {
-    height: 230px;
-    background-position: center;
-    background-size: cover;
+    text-align: center;
+}
+
+.img-card img {
+    width: 270px;
 }
  
 .text-card h3 {
     font-size: 25px;
     padding: 20px 0;
-}
-
-#card-1 {
-    background-image: url(../img/business-feature-switching-tools.png);
-}
-
-#card-2 {
-    background-image: url(../img/business-feature-coordinate-it.png);
-}
-
-#card-3 {
-    background-image: url(../img/business-feature-multi-device.png);
-}
-
-#card-4 {
-    background-image: url(../img/business-feature-integrations-it.png);
-}
-
-#card-5 {
-    background-image: url(../img/business-feature-send-files-it.png);
-}
-
-#card-6 {
-    background-image: url(../img/business-feature-security.png);
 }
 
 .underl {
