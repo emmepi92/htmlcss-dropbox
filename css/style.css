@@ -195,17 +195,17 @@ main .util {
 }
 
 /* icons in plan-float  */
- .list-first li::before {
+.list-first li::before {
     font-family: "Font Awesome 5 Free";
     display: inline-block;
     padding-right: 5px;
     vertical-align: middle;
     font-weight: 900;    
 }
-.detail-plan .list-first li:first-child::before {
+.list-first li:first-child::before {
     content: "\f007";
 }
-.detail-plan .list-first li:nth-child(2)::before {
+.list-first li:nth-child(2)::before {
     content: "\f07b";
 }
 .content-plan-2 .detail-plan .list-first li:nth-child(3)::before, .content-plan-3 .detail-plan .list-first li:nth-child(3)::before {
