@@ -396,7 +396,8 @@ main section .container h2 {
     left: 50%;
 }
 
-.box-content svg {
+/* logo in img      logo in svg*/
+.box-content img, .box-content svg {
     width: 10vw;
     filter: invert(1);
 }
