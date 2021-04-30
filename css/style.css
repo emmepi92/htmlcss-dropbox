@@ -352,6 +352,7 @@ main section .container h2 {
 .small-box {
     width: 50%;
     height: 16vw;
+    position: relative;
 }
 
 .red {
@@ -369,4 +370,13 @@ main section .container h2 {
 .blue {
     background-color: blue;
 }
+
+.box-content {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+
 
