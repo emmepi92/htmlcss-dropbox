@@ -195,7 +195,7 @@ main .util {
 }
 
 /* icons in plan-float  */
-.list-first li::before {
+ul.second-list li:before, .list-first li::before {
     font-family: "Font Awesome 5 Free";
     display: inline-block;
     padding-right: 5px;
@@ -254,11 +254,6 @@ ul.second-list{
 /* arrow icon  */
 ul.second-list li:before {
     content: "\f00c";
-    font-family: "Font Awesome 5 Free";
-    display: inline-block;
-    padding-right: 3px;
-    vertical-align: middle;
-    font-weight: 900;
     color: royalblue;
 }
 /* end float, in MAIN */
