@@ -134,6 +134,7 @@ main .container h2 {
     padding: 40px 0;
 }
 
+/* section 1 */
 form label {
     padding: 15px 15px 20px 5px;
 }
@@ -146,7 +147,7 @@ main .util {
     padding: 20px 0;
 }
 
-/* float in MAIN  */
+/* float in section 1  */
 .plan-sub {
     width: calc(100% / 3);
 }
@@ -185,7 +186,6 @@ main .util {
 .cost-plan {
     font-weight: bold;
     font-size: 15px;
-
 }
 
 .cost-plan + p {
@@ -204,7 +204,7 @@ main .util {
     padding-left: 20px;
 }
 
-/* icons in plan-float  */
+/* icons in section 1 float elem  */
 ul.second-list li:before, .list-first li::before {
     font-family: "Font Awesome 5 Free";
     display: inline-block;
@@ -266,7 +266,7 @@ ul.second-list li:before {
     content: "\f00c";
     color: royalblue;
 }
-/* end float, in MAIN */
+/* end float, in section 1 */
 
 .other-plan .detail-plan h4 + p {
     font-weight: bold;
@@ -290,7 +290,7 @@ ul.second-list li:before {
     padding: 10px 40px;
 }
 
-/* img with text section-2 MAIN*/
+/*  section-2 img with text */
 .img-container {
     width: 60%;
 }
@@ -314,7 +314,7 @@ ul.second-list li:before {
 }
 
 
-/* cards section 3 MAIN */
+/*  section 3 cards */
 .main .container h2 {
     font-size: 38px;
 }
@@ -341,7 +341,7 @@ ul.second-list li:before {
     text-decoration: underline;
 }
 
-/* section 4 in MAIN */
+/* section 4 */
 main section .container h2 {
     line-height: 35px;
 }
@@ -402,7 +402,6 @@ main section .container h2 {
 }
 
 /* section 5  */
-
 section.five {
     background-color: rgb( 180, 208, 213);
     height: 250px;
