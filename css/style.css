@@ -377,6 +377,9 @@ main section .container h2 {
     top: 50%;
     left: 50%;
 }
+.box-content img {
+    width: 10vw;
+}
 
 
 
