@@ -447,11 +447,28 @@ section.five .container {
 
 footer {
     background-color: black;
-    height: 500px;
+
     color: white;
+    padding: 100px 0;
+    font-size: 13px;
 }
 
-footer .container ul {
+footer ul {
     width: 20%;
 }
+
+footer li {
+    padding: 10px 0;
+}
+li:first-child {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.lang {
+    border-top: 1px solid white;
+    display: inline-block;
+    padding-top: 30px;
+}
+
 
