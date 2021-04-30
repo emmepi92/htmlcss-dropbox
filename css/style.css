@@ -383,5 +383,14 @@ main section .container h2 {
     fill: white;
 }
 
+.small-box > svg {
+    width: 15vw;
+}
+
+.big-box > .small-box {
+    padding: 40px;
+}
+
+
 
 
