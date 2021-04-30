@@ -6,7 +6,8 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
 }
 
 .nav-top ul li {
@@ -40,20 +41,14 @@ body {
     margin: 10px 0;
 }
 
-.text-container .button, .abs .button {
-    border: 1px solid black;
-    background-color: white;
-    color: black;
-    font-size: 15px;
-    padding: 5px 20px;
-}
+
 /* end utility  */
 
 /* HEADER  */
 header {
     background-color: rgb( 180, 208, 213);
-    height: 650px;
-    margin-bottom: 50px;
+    height: 730px;
+    margin-bottom: 150px;
 }
 
 /* nav-top HEADER  */
@@ -84,15 +79,16 @@ header {
 }
 
 .nav-top .login .button {
-    font-size: 13px;
+    font-size: 16px;
     margin: 0;
+    padding: 5px 18px;
 }
 
 /* jumbo text HEADER  */
 .container h1 {
-    letter-spacing: -5px;
-    font-size: 68px;
+    font-size: 80px;
     padding: 20px 0;
+    font-family: 'Oswald', sans-serif;
 }
 
 header .container {
@@ -104,10 +100,16 @@ header .container {
     width: 300px;
 }
 
-/* button in utility classes  */
+.jumbo-text > p {
+    padding-bottom: 25px;
+}
 
 .jumbo-text div:nth-last-child(2) {
-    font-size: 13px;
+    font-size: 14px;
+}
+
+.jumbo-text .button {
+    padding: 10px 20px;
 }
 
 .arrow {
@@ -117,7 +119,7 @@ header .container {
 /* jumbo img HEADER  */
 .jumbo {
     position: absolute;
-    bottom: -130px;
+    bottom: -200px;
     right: -50px;
 }
 
@@ -133,7 +135,7 @@ main .container {
 }
 
 main .container h2 {
-    font-size: 38px;
+    font-size: 50px;
     padding: 40px 0;
 }
 
@@ -177,23 +179,23 @@ main .util {
 
 .detail-plan {
     padding: 20px;
-    font-size: 14px;
+    font-size: 16px;
     border: 1px #ccc solid;
 }
 
 .detail-plan h4 {
-    font-size: 25px;
+    font-size: 30px;
     padding: 10px 0;
 }
 
 .cost-plan {
     font-weight: bold;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .cost-plan + p {
     color: #aaa;
-    font-size: 13px;
+    font-size: 16px;
     padding: 10px 0;
     height: 60px;
 }
@@ -203,7 +205,7 @@ main .util {
 }
 
 .list-first li {
-    text-indent: -9px;
+    text-indent: -10px;
     padding-left: 20px;
 }
 
@@ -314,6 +316,14 @@ ul.second-list li:before {
 .text-container p {
     font-size: 15px;
     padding: 25px 0;
+}
+
+.text-container .button, .abs .button {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    padding: 10px 20px;
 }
 
 
