@@ -410,7 +410,6 @@ section.five {
 
 section.five .container h2 {
     color: #613;
-
 }
 
 section.five .container {
@@ -426,3 +425,33 @@ section.five .container {
 .abs .button {
     border: none;
 }
+
+/* section 6 */
+.six .container {
+    padding: 100px 0;
+}
+
+.six .container h3 {
+    font-size: 28px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 50px;
+
+}
+
+.third-list li {
+    padding: 30px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+/* footer  */
+
+footer {
+    background-color: black;
+    height: 500px;
+    color: white;
+}
+
+footer .container ul {
+    width: 20%;
+}
+
