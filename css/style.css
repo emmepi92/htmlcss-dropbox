@@ -343,7 +343,30 @@ main section .container h2 {
     line-height: 35px;
 }
 
+.big-box {
+    width: calc(100% / 3);
+    height: 32vw;
+    background-color: #eee;
+}
+
 .small-box {
-    width: calc(100% / 6);
+    width: 50%;
+    height: 16vw;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
 }
 
