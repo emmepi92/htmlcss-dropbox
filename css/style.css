@@ -28,6 +28,7 @@ body {
 .fr {
     float: right;
 }
+
 .container {
     width: 1100px;
     margin: 0 auto;
@@ -39,6 +40,10 @@ body {
     padding: 5px 10px;
     color: white;
     margin: 10px 0;
+}
+
+.abs {
+    position: absolute;
 }
 /* end utility  */
 
@@ -400,6 +405,21 @@ main section .container h2 {
     background-color: #eee;
 }
 
+.black-row {
+    position: relative;
+    height: 5px;
+    background-color: black;
+    transition: width 3s;
+    animation: mymove 5s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes mymove {
+    from {width: 0px;}
+    to {width: 100%;}
+  }
+
+
 .small-box {
     width: 50%;
     height: 16vw;
@@ -426,7 +446,6 @@ main section .container h2 {
     left: 50%;
 }
 
-/* logo in img      logo in svg*/
 .box-content img, .box-content svg {
     width: 10vw;
     filter: invert(1);
@@ -464,8 +483,7 @@ section.five .container {
     position: relative
 }
 
-.abs {
-    position: absolute;
+.five .abs {
     top:80px;
     right: 0;
 }
