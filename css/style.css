@@ -82,8 +82,17 @@ header {
 
 .main li, .main-2 li {
     padding: 0 10px;
+}
+.main li a, .main-2 li a {
     text-decoration: none;
-    
+    color: black;
+
+}
+
+.main li:hover, .main-2 li:hover {
+    border-bottom: 2px solid black;
+    padding-bottom: 50px;
+    margin-bottom: 0;
 }
 
 .nav-top .login .button {
