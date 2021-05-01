@@ -40,8 +40,6 @@ body {
     color: white;
     margin: 10px 0;
 }
-
-
 /* end utility  */
 
 /* HEADER  */
@@ -57,6 +55,7 @@ header {
     padding: 20px;
     background-color: white;
 }
+
 .fix {
     position: fixed;
     top: 0;
@@ -83,12 +82,32 @@ header {
 
 .main li, .main-2 li {
     padding: 0 10px;
+    text-decoration: none;
+    
 }
 
 .nav-top .login .button {
     font-size: 16px;
     margin: 0;
     padding: 5px 18px;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+}
+
+.login .button:hover, .jumbo-text .button:hover, .detail-plan .button:hover {
+    background-color: rgb(71, 138, 255);
+}
+
+.button a.second {
+    text-decoration: none;
+    color: black;
+}
+
+.text-container .button:hover, .abs .button:hover {
+    background-color: whitesmoke;
 }
 
 /* jumbo text HEADER  */
