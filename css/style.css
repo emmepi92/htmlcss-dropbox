@@ -70,7 +70,7 @@ header {
 
 .logo {
     width: 11%;
-    padding: 10px 10px;
+    padding: 20px 10px;
 
 }
 
@@ -81,7 +81,7 @@ header {
 
 .login {
     width: 7%;
-    padding: 10px 10px;
+    padding: 20px 10px;
 }
 
 .main-2, .login {
@@ -89,7 +89,7 @@ header {
 }
 
 .main li, .main-2 li {
-    padding: 10px 10px;
+    padding: 20px;
 }
 
 .main li a, .main-2 li a {
@@ -99,7 +99,7 @@ header {
 
 .main li:hover, .main-2 li:hover {
     border-bottom: 2px solid black;
-    padding-bottom: 8px;
+    padding-bottom: 18px;
 }
 
 .nav-top .login .button {
@@ -420,7 +420,6 @@ main section .container h2 {
 }
 
  /* noob animations */
-
 [id^="box"] {
     animation-iteration-count: infinite;
     animation-duration: 40s;
@@ -512,8 +511,6 @@ main section .container h2 {
     12% {border: 10px solid rgba(255,255,255,0.5);}
     13% {border: none;} 
 }
-
-
 
 .small-box {
     width: 50%;
