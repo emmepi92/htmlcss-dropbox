@@ -410,14 +410,102 @@ main section .container h2 {
     height: 5px;
     background-color: black;
     transition: width 3s;
-    animation: mymove 5s infinite;
+    animation: black-row 5s infinite;
     animation-timing-function: linear;
 }
 
-@keyframes mymove {
+@keyframes black-row {
     from {width: 0px;}
     to {width: 100%;}
-  }
+}
+
+ /* noob animations */
+#box-1{
+    animation-name: box-detail-1;
+    animation-duration: 5s;}
+
+@keyframes box-detail-1 {
+    from {border: 10px solid rgba(255,255,255,0.5);}
+    to {border: 10px solid rgba(255,255,255,0.5);}
+}
+
+#box-2{
+    animation-name: box-detail-2;
+    animation-duration: 5s;
+    animation-delay:5s;
+}
+
+@keyframes box-detail-2 {
+    from {border: 10px solid rgba(255,255,255,0.5);}
+    to {border: 10px solid rgba(255,255,255,0.5);}
+}
+
+#box-3{
+    animation-name: box-detail-3;
+    animation-duration: 5s;
+    animation-delay:10s;
+}
+
+@keyframes box-detail-3 {
+    from {border: 10px solid rgba(255,255,255,0.5);}
+    to {border: 10px solid rgba(255,255,255,0.5);}
+}
+
+#box-4{
+    animation-name: box-detail-4;
+    animation-duration: 5s;
+    animation-delay: 15s;
+}
+
+@keyframes box-detail-4 {
+    from {border: 10px solid rgba(255,255,255,0.5);}
+    to {border: 10px solid rgba(255,255,255,0.5);}
+}
+
+#box-5{
+    animation-name: box-detail-5;
+    animation-duration: 5s;
+    animation-delay:20s;
+}
+
+@keyframes box-detail-5 {
+    from {border: 10px solid rgba(255,255,255,0.5);}
+    to {border: 10px solid rgba(255,255,255,0.5);}
+}
+
+#box-6{
+    animation-name: box-detail-6;
+    animation-duration: 5s;
+    animation-delay:25s;
+}
+
+@keyframes box-detail-6 {
+    from {border: 10px solid rgba(255,255,255,0.5);}
+    to {border: 10px solid rgba(255,255,255,0.5);}
+}
+
+#box-7{
+    animation-name: box-detail-7;
+    animation-duration: 5s;
+    animation-delay:30s;
+}
+
+@keyframes box-detail-7 {
+    from {border: 10px solid rgba(255,255,255,0.5);}
+    to {border: 10px solid rgba(255,255,255,0.5);}
+}
+
+#box-8{
+    animation-name: box-detail-8;
+    animation-duration: 5s;
+    animation-delay:35s;
+}
+
+@keyframes box-detail-8 {
+    from {border: 10px solid rgba(255,255,255,0.5);}
+    to {border: 10px solid rgba(255,255,255,0.5);}
+}
+
 
 
 .small-box {
