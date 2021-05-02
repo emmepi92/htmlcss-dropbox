@@ -420,10 +420,14 @@ main section .container h2 {
 }
 
  /* noob animations */
+
+[id^="box"] {
+    animation-iteration-count: infinite;
+    animation-duration: 40s;
+}
+
 #box-1{
     animation-name: box-detail-1;
-    animation-duration: 40s;
-    animation-iteration-count: infinite;
 }
 
 @keyframes box-detail-1 {
@@ -434,9 +438,7 @@ main section .container h2 {
 
 #box-2{
     animation-name: box-detail-2;
-    animation-duration: 40s;
     animation-delay:5s;
-    animation-iteration-count: infinite;
 }
 
 @keyframes box-detail-2 {
@@ -447,9 +449,7 @@ main section .container h2 {
 
 #box-3{
     animation-name: box-detail-3;
-    animation-duration: 40s;
     animation-delay:10s;
-    animation-iteration-count: infinite;
 }
 
 @keyframes box-detail-3 {
@@ -460,9 +460,7 @@ main section .container h2 {
 
 #box-4{
     animation-name: box-detail-4;
-    animation-duration: 40s;
     animation-delay: 15s;
-    animation-iteration-count: infinite;
 }
 
 @keyframes box-detail-4 {
@@ -473,9 +471,7 @@ main section .container h2 {
 
 #box-5{
     animation-name: box-detail-5;
-    animation-duration: 40s;
     animation-delay:20s;
-    animation-iteration-count: infinite;
 }
 
 @keyframes box-detail-5 {
@@ -486,9 +482,7 @@ main section .container h2 {
 
 #box-6{
     animation-name: box-detail-6;
-    animation-duration: 40s;
     animation-delay:25s;
-    animation-iteration-count: infinite;
 }
 
 @keyframes box-detail-6 {
@@ -499,9 +493,7 @@ main section .container h2 {
 
 #box-7{
     animation-name: box-detail-7;
-    animation-duration: 40s;
     animation-delay:30s;
-    animation-iteration-count: infinite;
 }
 
 @keyframes box-detail-7 {
@@ -512,9 +504,7 @@ main section .container h2 {
 
 #box-8{
     animation-name: box-detail-8;
-    animation-duration: 40s;
     animation-delay:35s;
-    animation-iteration-count: infinite;
 }
 
 @keyframes box-detail-8 {
