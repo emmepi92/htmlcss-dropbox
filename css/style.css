@@ -608,8 +608,12 @@ section.five .container {
     float: right;
     content: "\f107";
     font-size: 1.5em;
-
 }
+
+.six li:nth-child(3)::after {
+    line-height: 0;
+}
+
 /* footer  */
 footer {
     background-color: black;
