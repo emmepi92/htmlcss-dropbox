@@ -49,6 +49,10 @@ a {
     text-decoration: none;
     color: white;
 }
+
+.button a.second {
+    color: black;
+}
 /* end utility  */
 
 /* HEADER  */
@@ -112,10 +116,6 @@ header {
 
 .login .button:hover, .jumbo-text .button:hover, .detail-plan .button:hover {
     background-color: rgb(71, 138, 255);
-}
-
-.button a.second {
-    color: black;
 }
 
 .text-container .button:hover, .abs .button:hover {
@@ -279,14 +279,18 @@ ul.second-list li:before, .list-first li::before, .six li::after {
     font-size: 15px;
     padding: 10px 0;
 }
-
 .detail-plan .button + p {
     padding: 15px 0;
 }
 
-p a {
+.detail-plan .button + p a {
+    text-decoration: underline;
     color: rgb(0, 93, 255);
     font-weight: bold;
+}
+
+.detail-plan .button + p a:hover {
+    text-decoration: none;
 }
 
 .detail-plan hr {
