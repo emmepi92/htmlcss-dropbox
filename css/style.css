@@ -58,7 +58,7 @@ a {
 /* HEADER  */
 header {
     background-color: rgb( 180, 208, 213);
-    height: 730px;
+    /* height: 730px; */
     margin-bottom: 150px;
     position: relative;
 }
@@ -131,7 +131,7 @@ header {
 
 header .container {
     position: relative;
-    height: 550px;
+    /* height: 550px; */
 }
 
 .jumbo-text {
@@ -152,12 +152,13 @@ header .container {
 
 .arrow {
     font-size: 3em;
+    padding-bottom: 50px;
 }
 
 /* jumbo img HEADER  */
 .jumbo {
     position: absolute;
-    bottom: -290px;
+    bottom: -150px;
     right: -60px;
 }
 
@@ -432,92 +433,52 @@ main section .container h2 {
 }
 
 #box-1{
-    animation-name: box-detail-1;
+    animation-name: box-detail;
     transition: visibility 0s, opacity 0.5s linear;
 }
 
-@keyframes box-detail-1 {
+@keyframes box-detail {
     0% {border: 10px solid rgba(255,255,255,0.5);}
     12% {border: 10px solid rgba(255,255,255,0.5);}
     13% {border: none;}
 }
 
 #box-2{
-    animation-name: box-detail-2;
+    animation-name: box-detail;
     animation-delay:5s;
-    transition: visibility 0s, opacity 0.5s linear;
 }
 
-@keyframes box-detail-2 {
-    0% {border: 10px solid rgba(255,255,255,0.5);}
-    12% {border: 10px solid rgba(255,255,255,0.5);}
-    13% {border: none;}
-}
 
 #box-3{
-    animation-name: box-detail-3;
+    animation-name: box-detail;
     animation-delay:10s;
 }
 
-@keyframes box-detail-3 {
-    0% {border: 10px solid rgba(255,255,255,0.5);}
-    12% {border: 10px solid rgba(255,255,255,0.5);}
-    13% {border: none;} 
-}
 
 #box-4{
-    animation-name: box-detail-4;
+    animation-name: box-detail;
     animation-delay: 15s;
 }
 
-@keyframes box-detail-4 {
-    0% {border: 10px solid rgba(255,255,255,0.5);}
-    12% {border: 10px solid rgba(255,255,255,0.5);}
-    13% {border: none;} 
-}
-
 #box-5{
-    animation-name: box-detail-5;
+    animation-name: box-detail;
     animation-delay:20s;
 }
 
-@keyframes box-detail-5 {
-    0% {border: 10px solid rgba(255,255,255,0.5);}
-    12% {border: 10px solid rgba(255,255,255,0.5);}
-    13% {border: none;} 
-}
-
 #box-6{
-    animation-name: box-detail-6;
+    animation-name: box-detail;
     animation-delay:25s;
 }
 
-@keyframes box-detail-6 {
-    0% {border: 10px solid rgba(255,255,255,0.5);}
-    12% {border: 10px solid rgba(255,255,255,0.5);}
-    13% {border: none;} 
-}
 
 #box-7{
-    animation-name: box-detail-7;
+    animation-name: box-detail;
     animation-delay:30s;
 }
 
-@keyframes box-detail-7 {
-    0% {border: 10px solid rgba(255,255,255,0.5);}
-    12% {border: 10px solid rgba(255,255,255,0.5);}
-    13% {border: none;} 
-}
-
 #box-8{
-    animation-name: box-detail-8;
+    animation-name: box-detail;
     animation-delay:35s;
-}
-
-@keyframes box-detail-8 {
-    0% {border: 10px solid rgba(255,255,255,0.5);}
-    12% {border: 10px solid rgba(255,255,255,0.5);}
-    13% {border: none;} 
 }
 
 .red {
