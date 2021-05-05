@@ -430,55 +430,41 @@ main section .container h2 {
 [id^="box"] {
     animation-iteration-count: infinite;
     animation-duration: 40s;
+    animation-name: box-detail;
 }
 
-#box-1{
-    animation-name: box-detail;
-    transition: visibility 0s, opacity 0.5s linear;
+#box-2{
+    animation-delay:5s;
+}
+
+#box-3{
+    animation-delay:10s;
+}
+
+#box-4{
+    animation-delay: 15s;
+}
+
+#box-5{
+    animation-delay:20s;
+}
+
+#box-6{
+    animation-delay:25s;
+}
+
+#box-7{
+    animation-delay:30s;
+}
+
+#box-8{
+    animation-delay:35s;
 }
 
 @keyframes box-detail {
     0% {border: 10px solid rgba(255,255,255,0.5);}
     12% {border: 10px solid rgba(255,255,255,0.5);}
     13% {border: none;}
-}
-
-#box-2{
-    animation-name: box-detail;
-    animation-delay:5s;
-}
-
-
-#box-3{
-    animation-name: box-detail;
-    animation-delay:10s;
-}
-
-
-#box-4{
-    animation-name: box-detail;
-    animation-delay: 15s;
-}
-
-#box-5{
-    animation-name: box-detail;
-    animation-delay:20s;
-}
-
-#box-6{
-    animation-name: box-detail;
-    animation-delay:25s;
-}
-
-
-#box-7{
-    animation-name: box-detail;
-    animation-delay:30s;
-}
-
-#box-8{
-    animation-name: box-detail;
-    animation-delay:35s;
 }
 
 .red {
